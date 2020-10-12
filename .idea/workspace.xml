@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6bee14b-0efd-4515-8b42-1bcf13443930" name="Default Changelist" comment="" />
+    <list default="true" id="f6bee14b-0efd-4515-8b42-1bcf13443930" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/statistic/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -18,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ikmbLFsonhfDN781OlMyfAW4Yf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -25,14 +40,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vovic\IdeaProjects\JaCoCo\src\test\java" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn help: describe - Dcmd clean" />
+      <command value="mvn help:describe - Dcmd = clean" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,9 +68,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="0" key="#Project_Structure" timestamp="1602460342914">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1602545659229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1602460342914" />
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1602545659229" />
+    <state x="561" y="261" key="Github.ShareDialog" timestamp="1602462964558">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="561" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1602462964558" />
+    <state x="491" y="68" key="Github.UntrackedFilesDialog" timestamp="1602462999108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602462999108" />
+    <state width="1306" height="42" key="GridCell.Tab.0.bottom" timestamp="1602546385495">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="42" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602546385495" />
+    <state width="1306" height="42" key="GridCell.Tab.0.center" timestamp="1602546385495">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="42" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602546385495" />
+    <state width="1306" height="42" key="GridCell.Tab.0.left" timestamp="1602546385494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="42" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602546385494" />
+    <state width="1306" height="42" key="GridCell.Tab.0.right" timestamp="1602546385495">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="42" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602546385495" />
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602543973276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602543973276" />
+    <state x="339" y="164" width="672" height="677" key="run.anything.popup" timestamp="1602544549101">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602544549101" />
   </component>
 </project>
