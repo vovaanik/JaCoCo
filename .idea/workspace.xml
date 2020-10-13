@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6bee14b-0efd-4515-8b42-1bcf13443930" name="Default Changelist" comment="updated maven.yml">
+    <list default="true" id="f6bee14b-0efd-4515-8b42-1bcf13443930" name="Default Changelist" comment="update surefire plugin">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/statistic/StatisticServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -58,11 +59,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.netology.statistic" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vovic\IdeaProjects\JaCoCo\src\test\java" />
     </key>
@@ -106,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602548304154</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update surefire plugin">
+      <created>1602549390879</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602549390879</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,7 +140,8 @@
     <MESSAGE value="added StatisticService" />
     <MESSAGE value="added StatisticService2" />
     <MESSAGE value="updated maven.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated maven.yml" />
+    <MESSAGE value="update surefire plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="update surefire plugin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1602547434111">
@@ -163,14 +180,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="481" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602549003868" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602548313487">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602549393234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602548313487" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602549393234" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602543973276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602543973276" />
+    <state x="454" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602549937159">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1602549937159" />
     <state x="571" y="353" width="672" height="677" key="run.anything.popup" timestamp="1602549177404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
