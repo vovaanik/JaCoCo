@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6bee14b-0efd-4515-8b42-1bcf13443930" name="Default Changelist" comment="added StatisticService2">
+    <list default="true" id="f6bee14b-0efd-4515-8b42-1bcf13443930" name="Default Changelist" comment="updated maven.yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +73,7 @@
       <command value="mvn help:describe - Dcmd = clean" />
       <command value="mvn b package" />
       <command value="mvn -B package" />
+      <command value="mvn -B -e verify" />
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602547148155</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated maven.yml">
+      <created>1602548304154</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602548304154</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,13 +123,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added StatisticService" />
     <MESSAGE value="added StatisticService2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added StatisticService2" />
+    <MESSAGE value="updated maven.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated maven.yml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1602547434111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1602547434111" />
+    <state x="129" y="55" key="DiffContextDialog" timestamp="1602549001558">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1602549001558" />
     <state x="561" y="261" key="Github.ShareDialog" timestamp="1602462964558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -129,33 +143,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="491" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602462999108" />
-    <state width="1306" height="240" key="GridCell.Tab.0.bottom" timestamp="1602547710629">
+    <state width="1306" height="240" key="GridCell.Tab.0.bottom" timestamp="1602549177435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602547710629" />
-    <state width="1306" height="240" key="GridCell.Tab.0.center" timestamp="1602547710629">
+    <state width="1306" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602549177435" />
+    <state width="1306" height="240" key="GridCell.Tab.0.center" timestamp="1602549177435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602547710629" />
-    <state width="1306" height="240" key="GridCell.Tab.0.left" timestamp="1602547710629">
+    <state width="1306" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602549177435" />
+    <state width="1306" height="240" key="GridCell.Tab.0.left" timestamp="1602549177435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602547710629" />
-    <state width="1306" height="240" key="GridCell.Tab.0.right" timestamp="1602547710629">
+    <state width="1306" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602549177435" />
+    <state width="1306" height="240" key="GridCell.Tab.0.right" timestamp="1602549177435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602547710629" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602547157208">
+    <state width="1306" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602549177435" />
+    <state x="481" y="84" key="RollbackChangesDialog" timestamp="1602549003868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602547157208" />
+    <state x="481" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602549003868" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602548313487">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602548313487" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602543973276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602543973276" />
-    <state x="339" y="164" width="672" height="677" key="run.anything.popup" timestamp="1602547710596">
+    <state x="571" y="353" width="672" height="677" key="run.anything.popup" timestamp="1602549177404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602547710596" />
+    <state x="571" y="353" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602549177404" />
   </component>
 </project>
